@@ -15,7 +15,7 @@ Num Examples
 |Model|Model Description|Accuracy|Precision|Recall|F1-score|
 |-----|----|--------|---------|------|--------|
 |Positive Baseline|Always predict positive class ("punchline")|37.2|37.2|100.0|54.2|
-|Random Weighted Baseline|Predict positive class 37.2% of the time matching dataset distribution|37.2|37.2|37.2|37.2|
+|Random Weighted Baseline|Predict positive class 37.2% of the time matching overall dataset distribution|37.2|37.2|37.2|37.2|
 |Logistic regression (language only)|Logistic Regression trained on language features(ngrams, parts of speech, sentiment, line length)|70.6|62.7|51.4|56.5|
 |RNN (audio only)|RNN trained on acoustic features (MFCC vectors, Energy level)|71.7|63.5|55.9|59.4|
 |Paper Final Model (RNN+LogReg)|Extract final hidden state vector from RNN trained on acoustic features. Concatenate with language features. Train logistic regression model on combined feature vector|73.9|66.5|60.3|63.2|
