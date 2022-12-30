@@ -31,3 +31,14 @@ Overfitting...
 
 <br>You can play with the model here https://huggingface.co/goldenk/distilbert-base-uncased-finetuned-switchboard-2
 
+This was inspired by the following (install.py and utils.py):
+```
+  @book{tunstall2022natural,
+    title={Natural Language Processing with Transformers: Building Language Applications with Hugging Face},
+    author={Tunstall, Lewis and von Werra, Leandro and Wolf, Thomas},
+    isbn={1098103246},
+    url={https://books.google.ch/books?id=7hhyzgEACAAJ},
+    year={2022},
+    publisher={O'Reilly Media, Incorporated}
+  }
+```
