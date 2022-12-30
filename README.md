@@ -30,6 +30,7 @@ Overfitting...
 |Val|72.2|71.7|72.1|71.8|
 
 <br>You can play with the model here https://huggingface.co/goldenk/distilbert-base-uncased-finetuned-switchboard-2
+<br>Open in Colab: https://colab.research.google.com/github/katepark/laughbot-transformer/blob/main/laughbot_transformer_scratch.ipynb
 
 This was inspired by the following (install.py and utils.py):
 ```
