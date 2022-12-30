@@ -42,16 +42,18 @@ def setup_chapter():
         if is_kaggle:
             print("Go to Settings > Accelerator and select GPU.")
     # Give visibility on versions of the core libraries
+    print("custom chapter")
     display_library_version(transformers)
     display_library_version(datasets)
+    print("reached info")
     # Disable all info / warning messages
     transformers.logging.set_verbosity_error()
     datasets.logging.set_verbosity_error()
     # Logging is only available for the chapters that don't depend on Haystack
+    print("logging")
     if huggingface_hub.__version__ == "0.0.19":
         huggingface_hub.logging.set_verbosity_error()
     # Use O'Reilly style for plots
-    print("Setting plot style")
     set_plot_style()
 
 
