@@ -51,6 +51,7 @@ def setup_chapter():
     if huggingface_hub.__version__ == "0.0.19":
         huggingface_hub.logging.set_verbosity_error()
     # Use O'Reilly style for plots
+    print("Setting plot style")
     set_plot_style()
 
 
