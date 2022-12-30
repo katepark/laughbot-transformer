@@ -5,7 +5,7 @@ Dataset: Any line of a transcript preceding indication of laughter (often transc
 |Transcript|Class|
 |--|---|
 |A:  Uh-huh. Well, you must have a relatively clean conscience then.|Punchline|
-|B: [Laughter]|Unfunny|
+|B: [Laughter]|-|
 
 Num Examples
 * Train: 23658 (38.7% "punchline")
