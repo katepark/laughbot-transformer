@@ -29,5 +29,5 @@ Overfitting...
 |Train|89.9|89.9|89.9|89.9|
 |Val|72.2|71.7|72.1|71.8|
 
-<br>You can play with the model here https://huggingface.co/goldenk/distilbert-base-uncased-finetuned-switchboard
+<br>You can play with the model here https://huggingface.co/goldenk/distilbert-base-uncased-finetuned-switchboard-2
 
