@@ -32,7 +32,12 @@ Overfitting...
 <br>You can play with the model here https://huggingface.co/goldenk/distilbert-base-uncased-finetuned-switchboard-2
 <br>Open in Colab: https://colab.research.google.com/github/katepark/laughbot-transformer/blob/main/laughbot_transformer_scratch.ipynb
 
-This was inspired by the following (install.py and utils.py):
+# Future Work
+* joke text-generator fed into existing humor detection
+* better dataset than switchboard for humor detection
+
+# Citation
+This work drew from Hugging Face's NLP with Transformers
 ```
   @book{tunstall2022natural,
     title={Natural Language Processing with Transformers: Building Language Applications with Hugging Face},
